@@ -1,0 +1,20 @@
+Suite of programs to perform calculations with the Lipkin-Meshkov-Glick (LMG) model
+
+H. J. Lipkin, N. Meshkov, and A. J. Glick, Nucl. Phys. 62, 188 (1965).
+H. J. Lipkin, N. Meshkov, and A. J. Glick, Nucl. Phys. 62, 199 (1965).
+H. J. Lipkin, N. Meshkov, and A. J. Glick, Nucl. Phys. 62, 211 (1965).
+
+using a simplified model Hamiltonian
+
+H = (1-xi) n - (4 xi/N) J_z^2
+
+Note that LAPACK95 interface to the LAPACK library is needed to perform
+model Hamiltonian diagonalization.
+
+by Currix 
+
+The program user's guide can be found in the doc directory in pdf,
+html, and txt formats.
+
+Copyleft (2016-) Francisco Perez-Bernal
+
