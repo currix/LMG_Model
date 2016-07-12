@@ -3,7 +3,7 @@ PROGRAM avalavec_modelH_LIPKIN
   ! Program to compute eigenvalues and eigenvectors of the Lipkin 
   ! Model Hamiltonian
   !
-  ! Basis U2-SO2
+  ! Basis U2-SO2 (Casimir Operator J_z^2)
   !
   ! by Currix TM.
   !
