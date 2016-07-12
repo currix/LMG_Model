@@ -77,8 +77,9 @@ CONTAINS
     TYPE(u1_bas), DIMENSION(:), INTENT(OUT) :: U1_Basis
     !
     ! Local Variables
-    INTEGER(KIND = I4B) :: index, nt = 0
+    INTEGER(KIND = I4B) :: index, nt
     !
+    nt = 0
     index = 1_I4B
     !
     DO WHILE (nt <= N_val) 
