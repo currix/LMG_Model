@@ -6,7 +6,7 @@ H. J. Lipkin, N. Meshkov, and A. J. Glick, Nucl. Phys. 62, 211 (1965).
 
 using a simplified model Hamiltonian
 
-H = (1-xi) n - (4 xi/N) J_z^2
+H = (1-xi) n - (4 xi/N) J_z^2 + 2 delta J_z
 
 Note that LAPACK95 interface to the LAPACK library is needed to perform
 model Hamiltonian diagonalization.
